@@ -39,11 +39,11 @@ SME-agol v1.1 covers the following key areas:
 1. **Start new session and upload YAML file**
 2. Copy and paste this instruction or similar into chat.
 
-"Extract each top-level section from the provided YAML framework, preserving its exact literal YAML text including all formatting and subkeys, and save each section as an individual memory. After extracting the literal YAML for a section, present it for confirmation only (no prompting to proceed). Once confirmed, save the section. Repeat for all sections."|
+"Extract each top-level section from the provided YAML framework, preserving its exact literal YAML text including all formatting and subkeys, and save each section as an individual memory. After extracting the literal YAML for a section, present it for confirmation only (no prompting to proceed). Once confirmed, save the section. Repeat for all sections."
 
-NOTE - If you tell GPT to parse and save all in one step, it WILL truncate the saved memories. Truncated saves do not seem to adhere to framework across chats as well.
+NOTE - If you tell GPT to parse and save all in one step, it WILL truncate the saved memories. Truncated saves do not seem to adhere to framework across chats as well. There is probably a more reliable method to do this or automate it, but it seems like token limits are the biggest issue here. 
 
-3. Copy and paste this instruction or similar to chat.
+3. Confirm that each section is explicitly saved in full to memory.
 
 “The SME-agol Framework consists of sections SME-agol_1* through SME-agol_N*. Treat them as a cohesive whole unless a specific section is requested."
 
