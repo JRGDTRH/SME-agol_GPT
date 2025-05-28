@@ -1,3 +1,5 @@
+Abandoned - but keeping posted
+
 # SME-agol Framework v1.1
 
 The **SME-agol (Subject Matter Expert) Framework** is a comprehensive YAML-driven system designed to enhance ChatGPT's adaptive, domain-specific reasoning and response generation capabilities. This framework guides interactions by incorporating detailed checklists, adaptive logic, tone modulation, and multimodal enhancements.
